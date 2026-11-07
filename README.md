@@ -38,19 +38,4 @@ Caixa e salão são elementos de contexto, sem sensores próprios, câmeras ou c
 
 Execute `npm test` e `npm run check` para verificar. Sirva a pasta `dist` por HTTP para uso local. Não abra o HTML diretamente por `file://`, pois ele utiliza módulos ES.
 
-
-## Download e uso deste pacote
-
-Este pacote está pronto para um repositório GitHub independente. Consulte [COMO_SUBIR_NO_GITHUB.md](COMO_SUBIR_NO_GITHUB.md) para enviar pelo navegador ou pelo terminal e executar localmente. A pasta `dist/` contém os fontes editáveis do site e pode ser servida diretamente por HTTP.
-
-```bash
-# Executar localmente com Python 3
-python -m http.server 8000 --directory dist
-
-# Instalar as dependências de desenvolvimento e verificar com Node.js 24+
-npm ci
-npm test
-npm run check
-```
-
 Versão-base do código: `d0675487448ad1bd8c8beed32f5778aae8b4f277`.
